@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+
 def ekstrasi_data():
     try:
         content = requests.get('https://bmkg.go.id')
