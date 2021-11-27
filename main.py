@@ -1,6 +1,6 @@
-import gempa_terkini
+import latest_earthquake
 
 if __name__ == '__main__':
     print('Aplikasi utama')
-    result = gempa_terkini.ekstrasi_data()
-    gempa_terkini.tampilkan_data(result)
+    result = latest_earthquake.ekstraksi_data()
+    latest_earthquake.tampilkan_data(result)
